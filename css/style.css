@@ -1,0 +1,123 @@
+header {
+    background-color: gray;
+    background-image: url(../img/headerBg.png);
+    background-size: cover;
+}
+
+
+.navbar-nav a {
+    
+}
+
+nav .collapse {
+    justify-content: flex-end;
+}
+
+.line {
+    border-bottom: 3px solid white;
+    width: 60px;
+}
+.navbar-nav a {
+    text-transform: uppercase;
+    padding: 40px 50px 0 0 !important;
+    margin-bottom: 3px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff !important;
+}
+.navbar-nav a:hover {
+    color: #fce38a !important;
+    transition: all 0.2s;
+}
+
+.headetText {
+    margin-top: 180px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.headetText a {
+    display: inline-block;
+    margin-bottom: 200px;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid #ffffff;
+    padding: 12px 30px;
+}
+.headetText a:hover {
+    color: #fce38a;
+    border: 3px solid #fce38a;
+    transition: all 0.2s;
+}
+.headetText h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    color:#ffffff;
+}
+.headetText h1 {
+    margin-top: 40px;
+    text-transform: uppercase;
+    line-height: 170px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+.line {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.headerIntro .intro div, .headerIntro .work div, .headerIntro .about div, .headerIntro .contact div{
+    opacity: 0.5;
+    margin-bottom: 25px;
+    background-color: white;
+    height: 3px;
+    max-width: 280px;
+}
+.headerIntro .intro span {
+    background-color: red;
+    height: 3px;
+    max-width: 30px;
+}
+
+.headerIntro p {
+    opacity: 0.5;
+    margin:0 10px 30px 0;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.intro .introText, .work .workText, .about .aboutText, .contact .contactText {
+    opacity: 0.5;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.intro:hover .introText,.intro:hover p, .intro:hover div{
+    opacity: 1;
+    transition: all 0.2s;
+}
+.work:hover .workText,.work:hover p, .work:hover div{
+    opacity: 1;
+    transition: all 0.2s;
+}
+.about:hover .aboutText,.about:hover p, .about:hover div{
+    opacity: 1;
+    transition: all 0.2s;
+}
+.contact:hover .contactText,.contact:hover p, .contact:hover div{
+    opacity: 1;
+    transition: all 0.2s;
+}
