@@ -18,8 +18,10 @@ nav .collapse {
     width: 60px;
 }
 .navbar-nav a {
+    padding: 0;
+    margin-top: 40px;
+    margin-right: 50px;
     text-transform: uppercase;
-    padding: 40px 50px 0 0 !important;
     margin-bottom: 3px;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -81,11 +83,16 @@ nav .collapse {
     height: 3px;
     max-width: 280px;
 }
-.headerIntro .intro span {
-    background-color: red;
+.intro:hover .top-line:after, .work:hover .top-line:after, .about:hover .top-line:after, .contact:hover .top-line:after {
+    opacity: 0.5;
+    content: " ";
+    display: block;
     height: 3px;
-    max-width: 30px;
+    max-width: 70px;
+    background-color: red
 }
+
+
 
 .headerIntro p {
     opacity: 0.5;
@@ -120,4 +127,78 @@ nav .collapse {
 .contact:hover .contactText,.contact:hover p, .contact:hover div{
     opacity: 1;
     transition: all 0.2s;
+}
+
+/*секция о нас*/
+
+.blockText {
+    text-align: center;
+}
+
+.blockText h2 {
+    margin-top: 90px;
+    font-size: 24px !important;
+    font-family: 'Kaushan Script', cursive;    
+}
+
+.blockText h1 {
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;;
+    font-weight: 700;
+}
+.blockText .line {
+    border: 0;
+    height: 3px;
+    background-color: #f38181;
+    margin: 40px 0;
+    display: inline-block;
+}
+
+.caption p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    margin-bottom: 90px;
+}
+
+.about-photo img {
+    max-width: 100%;
+    margin-bottom: 110px;
+}
+
+.about-photo img:hover {
+    top:-10px;
+    right: 10px;
+    position: relative;
+    
+}
+
+/*секция с цифровой статистикой*/
+
+.numbers {
+    background-color: #95e1d3;
+}
+.numbers .row {
+    justify-content: space-between;
+}
+.number-center {
+    text-align: center;
+}
+.number {
+    margin:90px 0 30px;
+    line-height: 0.8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.number-descript {
+    margin: 0 0 90px;
+    line-height: 0.8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
 }
