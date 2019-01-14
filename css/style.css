@@ -166,13 +166,13 @@ nav .collapse {
 .about-photo img {
     max-width: 100%;
     margin-bottom: 110px;
+    transition: transform 0.3s;
 }
 
 .about-photo img:hover {
-    top:-10px;
-    right: 10px;
-    position: relative;
-    
+    transition: transform 0.3s;
+    transform: translateX(-10px) translateY(-10px);
+    box-shadow: 10px 10px 0px #95e1d3;
 }
 
 /*секция с цифровой статистикой*/
@@ -201,4 +201,47 @@ nav .collapse {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff;
+}
+
+/*секция Amazing Services*/
+
+hr {
+    margin: 0;
+}
+.services-blocks {
+    margin-bottom: 50px;
+}
+.services-blocks-2 {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.icon-headline {
+    margin: 0 0 18px 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+.icon-descript {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+
+/*секция services*/
+
+.unique-design {
+    background-image: url('../img/servicesBg.png');
+    background-size: cover;
+}
+
+.unique-design {
+    position: relative;
+}
+.white-phone {
+    position: absolute;
+    top: 57%;
+    left: 58%;
 }
