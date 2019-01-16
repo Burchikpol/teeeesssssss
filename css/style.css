@@ -325,3 +325,12 @@ hr {
 .we-do__arrow {
     cursor: pointer;
 }
+
+.arrow-normal {    
+    transform: rotate(180deg);
+    padding: 0 0 0 20px;
+}
+
+#hiden, #hiden1{
+    display: none;
+}
